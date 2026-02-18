@@ -1,0 +1,9 @@
+# LangChatbot configuration
+# Model names follow OpenRouter format: provider/model-name
+
+default_model: "anthropic/claude-sonnet-4-20250514"
+
+available_models:
+  - "anthropic/claude-sonnet-4-20250514"
+  - "openai/gpt-4o"
+  - "google/gemini-2.0-flash-001"
