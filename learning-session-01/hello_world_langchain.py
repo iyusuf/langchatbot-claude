@@ -16,5 +16,5 @@ prompt = ChatPromptTemplate.from_messages([
 chain = prompt | llm
 
 # 4. Invoke
-response = chain.invoke({"user_input": "What is LangChain?"})
+response = chain.invoke({"user_input": "What is the capital of Bangladesh?"})
 print(response.content)
