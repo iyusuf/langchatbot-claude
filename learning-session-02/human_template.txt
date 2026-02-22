@@ -1,0 +1,5 @@
+Candidate: {candidate_name}
+Resume Text:
+{resume}
+
+Score against JD criteria. Return JSON.
