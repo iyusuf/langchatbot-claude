@@ -3,6 +3,10 @@
 **Purpose**: Quick reference for the 20% of LangChain that does 80% of real work
 
 ---
+## Github gist
+
+[Github gist link](https://gist.github.com/iyusuf/b9726b161d721395b350708f4781fad5)
+
 
 ## 1. ChatPromptTemplate
 

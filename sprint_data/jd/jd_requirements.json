@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "architecture_version": "05a-chatbot-native-aec",
+    "architecture_release": "v1.2",
+    "vocab_version": "aec_v1",
+    "generated_at": "2026-02-23T06:10:15.993861+00:00",
+    "source": "NJ237_Project Engineer_New Jersey.md",
+    "jd_id": "nj237_project_engineer_new_jersey_f5861c07",
+    "script_version": "jd_requirements_extractor_v1",
+    "extraction_method": "deterministic_keyword"
+  },
+  "title": {
+    "raw": "NJ237_Project Engineer_New Jersey",
+    "normalized": null
+  },
+  "requirements": {
+    "must_have_skills": [
+      {
+        "term": "Bluebeam",
+        "in_vocab": true,
+        "evidence": {
+          "excerpt": "Possesses familiarity with Microsoft Office (Project, Word, Excel, PowerPoint, etc.), Bluebeam, and Project scheduling software.",
+          "location": "RESPONSIBILITIES"
+        }
+      },
+      {
+        "term": "Civil_Engineering",
+        "in_vocab": true,
+        "evidence": {
+          "excerpt": "Bachelor’s degree in civil engineering.",
+          "location": "RESPONSIBILITIES"
+        }
+      },
+      {
+        "term": "Construction_Management",
+        "in_vocab": true,
+        "evidence": {
+          "excerpt": "KS Engineers, P.C. (KSE) is a full-service engineering and construction management firm ranking in the ENR Top 500 for design and ENR Top 100 for construction management. We are headquartered in Newark, NJ, with regional offices in New York City and Newburgh, NY; Philadelphia and Pittsburgh, PA; Mount Laurel and...",
+          "location": "FULL_TEXT"
+        }
+      }
+    ],
+    "preferred_skills": [
+      {
+        "term": "Structural_Engineering",
+        "in_vocab": true,
+        "evidence": {
+          "excerpt": "Preferred 5-10 years of experience in structural engineering (Buildings or bridges)",
+          "location": "RESPONSIBILITIES"
+        }
+      }
+    ],
+    "must_have_certifications": [
+      {
+        "name": "PE",
+        "type": "license",
+        "evidence": {
+          "excerpt": "Licensed Professional Engineer preferably in NY and NJ.",
+          "location": "FULL_TEXT"
+        }
+      }
+    ],
+    "preferred_certifications": [],
+    "experience": {
+      "min_years": 5,
+      "preferred_years": 10,
+      "min_years_evidence": {
+        "excerpt": "Preferred 5-10 years of experience in structural engineering (Buildings or bridges)",
+        "location": "FULL_TEXT"
+      },
+      "preferred_years_evidence": {
+        "excerpt": "Preferred 5-10 years of experience in structural engineering (Buildings or bridges)",
+        "location": "FULL_TEXT"
+      }
+    },
+    "education_required": [],
+    "geographic_requirements": {
+      "primary_location": "New_Jersey",
+      "acceptable_regions": [
+        "Pennsylvania",
+        "Connecticut",
+        "New_York",
+        "New_Jersey",
+        "Tri_State"
+      ],
+      "local_experience_preferred": null,
+      "evidence": {
+        "excerpt": "# NJ237_Project Engineer_New Jersey",
+        "location": "FULL_TEXT"
+      }
+    },
+    "specialties_required": [
+      {
+        "term": "Quality_Control",
+        "evidence": {
+          "excerpt": "Develops and adheres to the budget, timeline, and quality control plan",
+          "location": "RESPONSIBILITIES"
+        }
+      }
+    ]
+  },
+  "scoring_weights": {
+    "skills_match": 0.35,
+    "certifications_match": 0.2,
+    "experience_years": 0.25,
+    "education": 0.1,
+    "geographic_fit": 0.1,
+    "weight_source": "default_aec_v1"
+  },
+  "warnings": [
+    "AMBIGUOUS_CLASSIFICATION",
+    "NO_EDUCATION_FOUND",
+    "OUT_OF_VOCAB_TERMS"
+  ],
+  "out_of_vocab_terms": [
+    {
+      "term": "ENR",
+      "context": "anagement firm ranking in the ENR Top 500 for design and ENR To",
+      "suggested_category": "unknown"
+    },
+    {
+      "term": "VEV",
+      "context": "Engineers, P.C. is an EOE/AA/VEV/Disabled Employer. KSE will n",
+      "suggested_category": "unknown"
+    }
+  ]
+}

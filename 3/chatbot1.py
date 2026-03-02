@@ -22,8 +22,8 @@ prompt = ChatPromptTemplate.from_messages([
 ])
 
 llm_model = ChatAnthropic(
-    model="claude-sonnet-4-6", 
-    temperature=0.0, 
+    model="claude-haiku-4-5-20251001",
+    temperature=0.0,
     max_tokens=1024
 )
 
@@ -33,7 +33,7 @@ chain = prompt | llm_model | StrOutputParser()
 print(prompt.messages)
 print(prompt.input_variables)
 response = chain.invoke({
-    "candidate_name1": "John Doe",
+    "candidate_name": "John Doe",
     "resume": "John has 5 years of experience in software development, specializing in Python and JavaScript. He has worked on various projects, including web applications and data analysis tools."
 })
 print(response)

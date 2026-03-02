@@ -1,1 +1,0 @@
-We are going to screen some resumes stored in a folder.
